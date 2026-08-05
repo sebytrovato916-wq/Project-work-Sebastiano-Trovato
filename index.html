@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="it">
+    <!--Metadati e collegamenti esterni per fonts e bootstrap-->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Report Sostenibilità Firriato</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <!--Inizio Contenuto della pagina-->
+    <body>
+        <!-- Navbar con logo e menu -->
+        <nav class="navbar navbar-expand-md navbar-dark header">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo-azienda.png" alt="Logo azienda Firriato">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-label="Apri menu di navigazione">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#chi-siamo">Chi Siamo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#forza">Punti Di Forza</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sostenibilita">Sostenibilità</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Sezione Hero con titolo e sottotitolo-->
+        <section class="hero text-white text-center p-5">
+            <div class="container-fluid mt-5">
+                <h1 class="display-4"><strong>Costruiamo il futuro, custodiamo la Sicilia</strong></h1>
+                <p class="lead">Scopri l'impegno che mettiamo per un <strong>FUTURO</strong> più sostenibile, trasparente e responsabile</p>
+            </div>
+        </section>
+
+        <!--Sezione Chi Siamo (dedicata alla presentazione dell'azienda)-->
+        <section id="chi-siamo">
+            <div class="container">
+                <h2 class="title text-center mb-4 pt-5"><strong>--Chi Siamo-- </strong></h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <!--Origini azienda-->
+                        <div class="valore-box">
+                            <h3 class="fw-bold mb-2">LE ORIGINI</h3>
+                            <div class="position-relative">
+                                <img src="images/immagine-proprietari.jpg" class="img-fluid rounded w-100" alt="Le origini di Firriato">
+
+                                <button class="btn btn-light position-absolute bottom-0 start-50 translate-middle-x mb-3"
+                                        data-bs-toggle="collapse" data-bs-target="#testo1">
+                                    Scopri di più
+                                </button>
+
+                                <div class="collapse position-absolute top-0 start-0 w-100 h-100 rounded" id="testo1">
+                                    <div class="d-flex align-items-center justify-content-center h-100 bg-dark bg-opacity-75 overlay-testo p-3 text-center"
+                                        data-bs-toggle="collapse" data-bs-target="#testo1">
+                                        <p><strong>Le Origini (1984):</strong> Fondata in provincia di Trapani da Salvatore Di Gaetano, a metà anni '90 si inserisce anche la moglie Vinzia di Gaetano che contribuisce a portare avanti l'azienda.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Azienda-->
+                    <div class="col-md-6">
+                        <div class="valore-box">
+                            <h3 class="fw-bold mb-2">L'AZIENDA</h3>
+                            <div class="position-relative">
+                                <img src="images/immagine-azienda.jpg" class="img-fluid rounded w-100" alt= "L'azienda di Firriato">
+
+                                <button class="btn btn-light position-absolute bottom-0 start-50 translate-middle-x mb-3"
+                                        data-bs-toggle="collapse" data-bs-target="#testo2">
+                                    Scopri di più
+                                </button>
+
+                                <div class="collapse position-absolute top-0 start-0 w-100 h-100 rounded" id="testo2">
+                                    <div class="d-flex align-items-center justify-content-center h-100 bg-dark bg-opacity-75 overlay-testo p-3 text-center"
+                                         data-bs-toggle="collapse" data-bs-target="#testo2">
+                                        <div>
+                                            <p>L'azienda gestisce diverse tenute posizionate in territori unici e differenti della Sicilia:</p>
+                                            <ul class="text-start">
+                                                <li><strong>Agro di Trapani</strong> (4 tenute)</li>
+                                                <li><strong>Tenuta Cavanera (Etna)</strong></li>
+                                                <li><strong>Tenuta Calamoni (Favignana)</strong></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Team-->
+                    <div class="col-md-6 ">
+                        <div class="valore-box">
+                            <h3 class="fw-bold mb-2">IL TEAM</h3>
+                            <div class="position-relative">
+                                <img src="images/immagine-team.jpg" class="img-fluid rounded w-100" alt="Il team di Firriato">
+
+                                <button class="btn btn-light position-absolute bottom-0 start-50 translate-middle-x mb-3"
+                                        data-bs-toggle="collapse" data-bs-target="#testo3">
+                                    Scopri di più
+                                </button>
+
+                                <div class="collapse position-absolute top-0 start-0 w-100 h-100 rounded" id="testo3">
+                                    <div class="d-flex align-items-center justify-content-center h-100 bg-dark bg-opacity-75 overlay-testo p-3 text-center"
+                                         data-bs-toggle="collapse" data-bs-target="#testo3">
+                                        <div>
+                                            <p>Un team di oltre 80 professionisti e maestranze locali tra personale stabile e stagionale:</p>
+                                            <ul class="text-start">
+                                                <li><strong>Team Enologico e Agronomico</strong></li>
+                                                <li><strong>Team specializzato in Viticoltura di Precisione ed Eroica</strong></li>
+                                                <li><strong>Team Hospitality e Wine Tourism</strong></li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Produzione-->
+                    <div class="col-md-6 ">
+                        <div class="valore-box">
+                            <h3 class="fw-bold mb-2">PRODUZIONE</h3>
+                            <div class="position-relative">
+                                <img src="images/immagine-produzione.jpg" class="img-fluid rounded w-100" alt="Produzione di Firriato">
+
+                                <button class="btn btn-light position-absolute bottom-0 start-50 translate-middle-x mb-3" data-bs-toggle="collapse" data-bs-target="#testo4">
+                                    Scopri di più
+                                </button>
+
+                                <div class="collapse position-absolute top-0 start-0 w-100 h-100 rounded" id="testo4">
+                                    <div class="d-flex align-items-center justify-content-center h-100 bg-dark bg-opacity-75 overlay-testo p-3 text-center"
+                                         data-bs-toggle="collapse" data-bs-target="#testo4">
+                                        <div>
+                                            <p>I numeri della Produzione <small><i>2024</i></small></p>
+                                            <ul class="text-start">
+                                                <li><strong>Volume di produzione:</strong> circa 2.500.000 di bottiglie</li>
+                                                <li><strong>Estensione Vitata Totale:</strong> 470 ettari di vigneto</li>
+                                                <li><strong>Presenza Globale:</strong> Esportiamo i nostri vini in oltre 40 paesi del mondo</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Sezione Punti di Forza (dedicata ai punti di forza dell'azienda)-->
+        <section id="forza" class="p-5">
+            <div class="container">
+                <h3 class="title text-center mb-4"><strong> --Punti Di Forza-- </strong></h3>
+                <div class="row row-cols-1 row-cols-lg-4 g-4">
+                    <!-- Sostenibilità Ambientale -->
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="card-body d-flex flex-column align-items-center">
+                                <img src="images/icon-1.png" alt="Icona sostenibilità" class="card-icon mb-3">
+                                <h4 class="card-title fw-bold">Sostenibilità Ambientale</h4>
+                                <p class="fw-bold">100% Biologico e Impronta Zero</p>
+
+                                <button class="collapsed btn arrow-toggle mt-auto" data-bs-toggle="collapse" data-bs-target="#extra1" aria-label="Mostra dettagli Sostenibilità Ambientale">
+                                    <i class="bi bi-chevron-down"></i>
+                                </button>
+
+                                <div class="collapse" id="extra1">
+                                    <p class="fst-italic mb-0">Coltiviamo circa 470 ettari di vigneti senza pesticidi o concimi chimici di sintesi. Abbiamo l'obiettivo di diventare un'azienda <strong>Carbon Neutral</strong>, che azzera le sue emissioni di CO<sub>2</sub> per proteggere il clima e il territorio.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Responsabilità Sociale -->
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="card-body d-flex flex-column align-items-center">
+                                <img src="images/icon-2.png" alt="Icona Responsabilità Sociale" class="card-icon mb-3">
+                                <h4 class="card-title fw-bold">Responsabilità Sociale</h4>
+                                <p class="fw-bold">Legame con il Territorio e Lavoro Etico</p>
+
+                                <button class="collapsed btn arrow-toggle mt-auto" data-bs-toggle="collapse" data-bs-target="#extra2" aria-label="Mostra dettagli Responsabilità Sociale">
+                                    <i class="bi bi-chevron-down"></i>
+                                </button>
+
+                                <div class="collapse" id="extra2">
+                                    <p class="fst-italic mb-0">Valorizziamo la comunità siciliana impiegando maestranze locali e promovendo la cultura del vino sostenibile. Recuperiamo gli antichi bagli e i vigneti storici per preservare la memoria dell'isola.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Innovazione e Ricerca -->
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="card-body d-flex flex-column align-items-center">
+                                <img src="images/icon-3.png" alt="Icona Innovazione e Ricerca" class="card-icon mb-3">
+                                <h4 class="card-title fw-bold">Innovazione e Ricerca</h4>
+                                <p class="fw-bold">Agricoltura di Precisione e Biodiversità</p>
+
+                                <button class="collapsed btn arrow-toggle mt-auto" data-bs-toggle="collapse" data-bs-target="#extra3" aria-label="Mostra dettagli Innovazione e Ricerca">
+                                    <i class="bi bi-chevron-down"></i>
+                                </button>
+
+                                <div class="collapse" id="extra3">
+                                    <p class="fst-italic mb-0">Applichiamo tecnologie avanzate per monitorare ogni singola vite e ridurre gli sprechi idrici. Salvaguardiamo la biodiversità nei nostri diversi terroir, dalle terre vulcaniche dell'Etna al mare di Favignana.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Qualità e Tracciabilità -->
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="card-body d-flex flex-column align-items-center">
+                                <img src="images/icon-4.png" alt="Icona Qualità e Tracciabilità" class="card-icon mb-3">
+                                <h4 class="card-title fw-bold">Qualità e Tracciabilità</h4>
+                                <p class="fw-bold">Dalla Terra alla Bottiglia</p>
+
+                                <button class="collapsed btn arrow-toggle mt-auto" data-bs-toggle="collapse" data-bs-target="#extra4" aria-label="Mostra dettagli Qualità e Tracciabilità">
+                                    <i class="bi bi-chevron-down"></i>
+                                </button>
+
+                                <div class="collapse" id="extra4">
+                                    <p class="fst-italic mb-0">Garantiamo la totale tracciabilità della filiera grazie alla certificazione <strong>ISO 22005</strong>. Offriamo vini biologici d'eccellenza, puri e autentici, nel pieno rispetto dei ritmi naturali della terra.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Sezione Sostenibilità (dedicata alla sostenibilità e agli obbiettivi dell'azienda e scaricamento del report)-->
+        <section id="sostenibilita" class="p-3">
+            <div class="container">
+                <h5 class="title text-center mb-4"><strong>--Sostenibilità--</strong></h5>
+                <div class="row row-cols-1 row-cols-lg-3 g-4">
+                    <!-- Pilastro Ambientale -->
+                    <div class="col">
+                        <div class="card-sostenibilità border rounded">
+                            <img src="images/pilastro-ambientale.jpeg" class="card-img-top" alt="Pilastro Ambientale">
+                            <div class="card-body p-3 text-center">
+                                <h6 class="card-title fw-bold">Pilastro Ambientale</h6>
+                                <p class="fw-bold">Meno impatto, più natura</p>
+                                <ul class="text-start">
+                                    <li>Vigneto 100% biologico su 470 ettari di terreno</li>
+                                    <li>Consumo energetico di 0,35 kWh per litro di vino</li>
+                                    <li>Consumo di acqua del -87% dal 2019 al 2024</li>
+                                    <li>Impianto Fotovoltaico da 432,73 kWp</li>
+                                    <li> Recupero di vitigni autoctoni storici e la protezione dei biotipi unici dell'Etna e di Favignana.</li>
+                                </ul>
+                                <p class="small fst-italic mb-0">Certificazioni: ISO 9000:2015, ISO 14001:2015, Biologica Reg. UE 2018/848, IFS FOOD, Bilancio Equalitas, UNI ISO 22005, BRCGS Food Safety</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Pilastro Sociale -->
+                    <div class="col">
+                        <div class="card-sostenibilità border rounded">
+                            <img src="images/pilastro-sociale.jpg" class="card-img-top" alt="Pilastro Sociale">
+                            <div class="card-body p-3 text-center">
+                                <h6 class="card-title fw-bold">Pilastro Sociale</h6>
+                                <p class="fw-bold">Tuteliamo le persone e il territorio</p>
+                                <ul class="text-start">
+                                    <li>Sicurezza sul lavoro a norma di legge secondo le norme attualmente in vigore</li>
+                                    <li>Parità salariale e nessuna discriminazione</li>
+                                    <li>Promozione della cultura locale attraverso il sostegno a eventi come "Visioni Verticali", "Calici di Stelle"</li>
+                                    <li>Piano annuale di formazione per i dipendenti su sicurezza e sostenibilità</li>
+                                    <li>Coinvolgimento sostenibile della filiera e dei fornitori</li>
+                                    <li>Dialogo e trasparenza con tutti gli stakeholder</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Obbiettivi Di Sostenibilità-->
+                    <div class="col">
+                        <div class="card-sostenibilità border rounded">
+                            <img src="images/obbiettivi-sostenibilita.jpg" class="card-img-top" alt="Obbiettivi sostenibilità">
+                            <div class="card-body p-3 text-center">
+                                <h6 class="card-title fw-bold">Obbiettivi Di Sostenibilità</h6>
+                                <p class="fw-bold">Il nostro impegno per il futuro</p>
+                                <ul class="text-start">
+                                    <li>Riduzione costante dei consumi idrici ed energetici con costruzione di nuovi depuratori</li>
+                                    <li>Impegno per la riduzione delle emissioni di CO2 per il mantenimento e ottimizzazione dello status di prima cantina italiana certificata a emissioni zero (Carbon Neutral dall'ente DNV GL)</li>
+                                    <li>Ampliamento dei boschi aziendali e dei progetti di riforestazione.</li>
+                                    <li>Evoluzione dei sistemi IoT per il monitoraggio dello stress idrico della pianta</li>
+                                    <li>Arrivare al riciclo e riutilizzo totale degli scarti di produzione in ottica di economia circolare a rifiuto zero.</li>
+                                    <li>Transizione verso un packaging totalmente ecocompatibile,riducendo peso delle bottiglie e utilizzando esclusivamente cartoni riciclati e sugheri certificati a impronta zero</li>
+                                    <li>Estendere la rendicontazione dei dati di sostenibilità direttamente al consumatore finale.</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sezione per il download del report di sostenibilità -->
+                <div class="row justify-content-center mt-5">
+                    <div class="col-md-6 text-center border rounded p-4">
+                        <img src="images/icona-pdf.jpeg" class="card-img-top icon-report" alt="Download Report Sostenibilità">
+                        <p>Vuoi conoscere tutti i dati e gli obiettivi del nostro percorso di sostenibilità nel dettaglio?</p>
+                        <a href="documenti/bilancio-sostenibilita-2024.pdf" class="btn btn-dark" download>
+                            <i class="bi bi-download"></i> Scarica il Report di Sostenibilità 2024
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer con logo, copyright e icone social -->
+        <footer class="footer text-white py-3">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-4 text-center text-lg-start mb-2">
+                        <img src="images/logo-azienda.png" alt="Logo Firriato" class="footer-logo">
+                    </div>
+                    <div class="col-12 col-lg-4 text-center mb-2">
+                        <p class="mb-0">&copy; 2024 Firriato. Tutti i diritti riservati.</p>
+                    </div>
+                    <div class="col-12 col-lg-4 text-center text-lg-end">
+                        <a class="text-white me-3 fs-4" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a class="text-white fs-4" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Script di Bootstrap per js e script js-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
